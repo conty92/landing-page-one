@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    background-color:antiquewhite
+}
+.section{
+    width: 80vw;
+    background-color: aliceblue;
+    margin-inline: auto;
+}
+.first-container{
+    width: 100%;
+    height: 400px;
+    background-image:url("./media/img/tela\ logo.3.png");
+    background-position: center;
+    background-size: cover;
+    margin-inline: auto;
+    padding: 30px;
+    margin-top: 30px;
+}
+ .first-container >.header{
+    width: 75vw;
+    height: 100px;
+    background-color: aliceblue;
+    margin-inline: auto;
+}
+.head-top{
+    display: flex;
+    justify-content: space-between;
+    width: 75vw;
+    height: 40px;
+    background-color: aliceblue;
+}
+.left-img > img{
+    width: 20px;
+    height: 20px;
+}
+.right-img > img{
+    width: 20px;
+    height: 20px;
+}
+.head-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    padding: 10px;
+
+}
+.head-logo > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.qoute{
+    padding: 150px;
+    text-align: center;
+}
+.qoute > input{
+    width: 80px;
+    height: 30px;
+    margin-top: 3rem;  
+}
+.qoute > button{
+    width: 80px;
+    height: 30px;
+    background-color: darkgoldenrod;
+}
+.services{
+    background-color: aliceblue;
+    width: 100%;
+    height: 600px;
+    margin-inline: auto;
+}
+.services > h2{
+    text-align: center;
+    padding: 30px;
+}
+
+.our-container{
+    width: 100%;
+    height: 500px;
+    margin-inline: auto;
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   padding: 50px;
+}
+.our-container > h3 {
+    font-size: 16;
+}
+.box{
+    width: 330px;
+    height: 200px;
+}
+.box > img{
+    width: 30px;
+    height: 30px;
+}
+.third-container{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(39, 97, 148);
+    margin-inline: auto;
+    display: flex;
+}
+.years{
+    width: 75vw;
+    height: 100px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+.third-container > .years > input{
+    width: 315px;
+    height: 60px;
+}
+.fouth-container{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to left, transparent, 30%, rgb(224, 213, 213)), url("./media/img/tela\ logo.2.png");
+    margin-inline: auto;
+    background-size: cover;
+    background-position:center;
+}
+.fouth-container > h2 {
+    padding: 20px;
+}
+.fouth-container > .fa-check-square {
+    padding: 15px;
+}
+.fifth-container{
+    width: 100%;
+    height: 400px;
+}
+.fifth-container >h2 {
+    text-align: center;
+    padding: 20px;
+}
+.fifth-container > .review-up {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 30px;
+    margin-left: 100px;
+}
+.fifth-container > .review-down {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding: 30px;
+    margin-left: 100px;
+}
+.sixth-container{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+.sixth-container{
+
+}
+.sixth-container > .left-side img {
+   width: 98%;
+   height: 250px; 
+   padding: 10px;
+}
+.left-side > .address{
+  padding: 20px; 
+
+}
+.left-side > .address > .fa-phone{
+    border: 2px solid black;
+    margin-top: 10px;
+}
+    
+.sixth-container > .right-side img {
+    width: 98%;
+    height: 250px; 
+    padding: 10px;
+ }
+ .right-side > .address{
+   padding: 20px; 
+ 
+ }
+ .right-side > .address > .fa-phone{
+     border: 2px solid black;
+     margin-top: 10px;
+ }
+
+
+
+
+
