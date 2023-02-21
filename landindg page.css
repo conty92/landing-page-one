@@ -189,6 +189,28 @@ body{
      border: 2px solid black;
      margin-top: 10px;
  }
+ .seventh-container{
+    width: 100%;
+    height: 150px;
+    background-color: darkgrey;
+
+ }
+
+ .line{
+    width: 100%;
+    height: 4px;
+    border: 0px;
+    background-color: aliceblue;
+ }
+ footer{
+    width: 100%;
+    height: 60px;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ 
 
 
 
